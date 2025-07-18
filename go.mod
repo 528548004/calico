@@ -1,6 +1,8 @@
 module github.com/projectcalico/calico
 
-go 1.18
+go 1.24.1
+
+godebug default=go1.24
 
 require (
 	github.com/coreos/go-semver v0.3.1
